@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE3_Q2_BSIT32E3_CANUA_CARL_JAMES", "IE3_Q2_BSIT32E3_CANUA_CARL_JAMES.csproj", "{F3404599-4437-411B-9FEF-683ECAD6AD99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3404599-4437-411B-9FEF-683ECAD6AD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3404599-4437-411B-9FEF-683ECAD6AD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3404599-4437-411B-9FEF-683ECAD6AD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3404599-4437-411B-9FEF-683ECAD6AD99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A5511AB-110E-4990-8E32-10B8269F10D5}
+	EndGlobalSection
+EndGlobal

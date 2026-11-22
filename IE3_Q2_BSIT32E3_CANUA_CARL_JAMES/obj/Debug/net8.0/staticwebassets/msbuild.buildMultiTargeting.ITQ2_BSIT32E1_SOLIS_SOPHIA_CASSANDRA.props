@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.props" />
+</Project>

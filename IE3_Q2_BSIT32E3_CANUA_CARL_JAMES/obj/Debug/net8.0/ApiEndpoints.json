@@ -1,0 +1,183 @@
+[
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UserGroupController",
+    "Method": "Get",
+    "RelativePath": "api/UserGroup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UserGroupController",
+    "Method": "Post",
+    "RelativePath": "api/UserGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Models.UserGroup.CreateUserGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UserGroupController",
+    "Method": "GetById",
+    "RelativePath": "api/UserGroup/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetUserGroupById"
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UserGroupController",
+    "Method": "Put",
+    "RelativePath": "api/UserGroup/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Models.UserGroup.EditUserGroupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UserGroupController",
+    "Method": "Delete",
+    "RelativePath": "api/UserGroup/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UsersController",
+    "Method": "Post",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Models.Users.CreateUsersRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetUserById"
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UsersController",
+    "Method": "Put",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Models.Users.EditUsersRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ITQ2_BSIT32E1_SOLIS_SOPHIA_CASSANDRA.Models.WeatherForecast, IE3_Q2_BSIT32E3_CANUA_CARL_JAMES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
